@@ -1,0 +1,21 @@
+.container_form {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    align-items: center;
+}
+
+.container_button {
+    margin-top: 1rem;
+    border-radius: 50px;
+    background: gainsboro;
+    width: 10rem;
+}
+
+input, textarea {
+    width: 50%;
+}
+
+input {
+    margin-bottom: 1rem;
+}
