@@ -1,19 +1,15 @@
-.container {
-    display: flex;
-    justify-content: space-around;
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
+.lista-notas {
+    background-color: var(--fundo);
+    flex-grow: 3;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding-left: 24px;
+    padding-top: 24px;
 }
 
-.container li {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    width: 20%;
-    border: 2px solid gray;
-    height: 150px;
-    border-radius: 5%;
-    justify-content: space-evenly;
-    align-items: center;
+.lista-notas_item {
+    margin: 12px;
+    max-width: 240px;
+    max-height: 400px;
+    display: inline;
 }

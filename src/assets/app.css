@@ -1,7 +1,15 @@
-.container_section { 
+:root {
+  --primaria: #58a4b0;
+  --secundaria: #373f51;
+  --secundaria-ativa: #cccccc;
+  --fundo: #ffffff;
+  --fundo-detalhes: #ececec;
+}
+
+.conteudo-principal {
+  flex-grow: 3;
+}
+
+.conteudo {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    padding-top: 5rem;
 }
